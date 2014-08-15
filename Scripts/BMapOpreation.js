@@ -22,7 +22,7 @@ map.addControl(new BMap.NavigationControl());  //添加默认缩放平移控件
 function showll(e) {
     alert(e.point.lng + ", " + e.point.lat);
 }
-//map.addEventListener("click", showll);
+map.addEventListener("click", showll);
 
 //本地对LBS云美食数据进行检索
 var foodLocal;
@@ -183,12 +183,32 @@ function routeChange(index) {
     }
 }
 
+//本地地标建筑显示
+var landmarkLocal;
+function addLandmarkLayer() {
+    if (landmarkLocal) {
+        landmarkLocal.clearResults();
+    }
+    //8月16日新建本地搜索
+    landmarkLocal = new BMap.LocalSearch(map, {
+        renderOptions: {
+            map: map,
+            panel: "showlandmark",//将列表结果显示到id为“showlandmark”的层中
+            autoViewport: true,  //根据结果点位置自动调整地图视野
+            selectFirstResult: false //不显示第一条结果的信息窗口
+        },
+        pageCapacity: 5//每页显示七条数据
+    });
+    landmarkLocal.search(' ', {forceLocal: true, customData: {geotableId: 75341}});//搜索快递表中所有的数据
+}
+
 //切换左侧导航功能区
 function showinfo(type) {
     var All = document.getElementById("all");
     var Showfood = document.getElementById("showfood");
     var Showexpress = document.getElementById("showexpress");
     var Showrunning = document.getElementById("showrunning");
+    var Showlandmark=document.getElementById("showlandmark");
     //切回初始界面
     if ('0') {
         if (foodLocal) {
@@ -206,6 +226,11 @@ function showinfo(type) {
             walking.clearResults();// 清除长跑路线
             All.style.display = "block";
             Showrunning.style.display = "none";
+        }
+        if(landmarkLocal){
+            landmarkLocal.clearResults();
+            All.style.display="block";
+            Showlandmark.style.display="none";
         }
         //恢复到初始地图的状态
         map.centerAndZoom(point, 16);
@@ -236,5 +261,11 @@ function showinfo(type) {
     //交流会
     if (type == "6") {
         alert("本功能正在开发中，敬请期待");
+    }
+    //地标
+    if(type=="15"){
+        addLandmarkLayer();
+        All.style.display="none";
+        Showlandmark.style.display="block";
     }
 }

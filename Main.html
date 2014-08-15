@@ -6,7 +6,7 @@
     <meta name="description" content="南工大地理信息集成平台">
     <meta name="author" content="南京工业大学测绘学院3S学社">
     <!--引入Flat UI的样式-->
-    <link type="text/css" rel="stylesheet" href="Styles/flat-ui.css"/>
+    <link type="text/css" rel="stylesheet" href="Styles/Site.css"/>
     <link type="text/css" rel="stylesheet" href="Styles/functions.css"/>
     <link type="text/css" rel="stylesheet" href="Styles/radius.css"/>
     <script type="text/javascript" src="Scripts/jquery-1.4.1.js"></script>
@@ -82,7 +82,7 @@
                 <a class="dormitory" href="#" style="float: left; margin-left: 16px; width: 40px; height: 55px">
                 </a>
                 <!--地标建筑-->
-                <a class="landmark" href="#" style="float: left; margin-left: 16px; width: 40px; height: 55px">
+                <a class="landmark" href="javascript:void(0)" style="float: left; margin-left: 16px; width: 40px; height: 55px;" onclick="showinfo('15')">
                 </a>
             </div>
             <!--校园风景展示区-->
@@ -95,10 +95,10 @@
                 </a>
             </div>
         </div>
-        <div class="fun" id="showfood" style="width: 260px; height: 490px; background-color: #FBFCFB; display:none; "></div>
-        <div class="fun" id="showexpress" style="width: 260px; height: 490px; background-color: #FBFCFB; display:none;"></div>
+        <div class="fun" id="showfood"></div>
+        <div class="fun" id="showexpress"></div>
         <!--显示长跑路线功能面板-->
-        <div class="fun" id="showrunning" style="width: 260px; height: 490px; background-color: #FBFCFB; display:none;">
+        <div class="fun" id="showrunning">
             <div id="sr1" style="width: 260px; height: 250px;"></div>
             <div id="sr2" style="width: 260px; height: 30px;">
                 <form>
@@ -124,6 +124,9 @@
             </div>
             <div id="src3" style="width: 260px; height: 204px;"><img src="Styles/Images/MainLeft/announcement.png" /></div>
         </div>
+        <div class="fun" id="showacademic_area"></div>
+        <div class="fun" id="showdormitory"></div>
+        <div class="fun" id="showlandmark"></div>
         <!--服务功能区-->
         <div class="services">
             <a href="#">数据纠错</a>
