@@ -1,0 +1,45 @@
+﻿/*美食*/
+.food{background-image: url("Images/MainLeft/food.png");}
+.food:hover{background-image: url("Images/MainLeft/food2.png");}
+/*快递*/
+.express{background-image: url("Images/MainLeft/express.png");}
+.express:hover{background-image: url("Images/MainLeft/express2.png");}
+/*长跑*/
+.running{background-image: url("Images/MainLeft/run.png");}
+.running:hover{background-image: url("Images/MainLeft/run2.png");}
+/*校车*/
+.bus{background-image: url("Images/MainLeft/schoolbus.png");}
+.bus:hover{background-image: url("Images/MainLeft/schoolbus2.png");}
+/*活动*/
+.activity{background-image: url("Images/MainLeft/activity.png");}
+.activity:hover{background-image: url("Images/MainLeft/activity2.png");}
+/*报告会*/
+.report{background-image: url("Images/MainLeft/report.png");}
+.report:hover{background-image: url("Images/MainLeft/report2.png");}
+/*自助服务*/
+.self-service{background-image: url("Images/MainLeft/self-service3.png");}
+.self-service:hover{background-image: url("Images/MainLeft/self-service4.png");}
+/*装饰*/
+.decoration{background-image: url("Images/MainLeft/decoration.png");}
+.decoration:hover{background-image: url("Images/MainLeft/decoration2.png");}
+/*研究生*/
+.postgraduate{background-image: url("Images/MainLeft/postgraduate.png");}
+.postgraduate:hover{background-image: url("Images/MainLeft/postgraduate2.png");}
+/*空教室*/
+.classroom{background-image: url("Images/MainLeft/search.png");}
+.classroom:hover{background-image: url("Images/MainLeft/search2.png");}
+/*书摊*/
+.bookshop{background-image: url("Images/MainLeft/bookshop.png");}
+.bookshop:hover{background-image: url("Images/MainLeft/bookshop2.png");}
+/*图书馆*/
+.library{background-image: url("Images/MainLeft/library.png");}
+.library:hover{background-image: url("Images/MainLeft/library2.png");}
+/*教学区*/
+.academic_area{background-image: url("Images/MainLeft/academic_area.png");}
+.academic_area:hover{background-image: url("Images/MainLeft/academic_area2.png");}
+/*宿舍区*/
+.dormitory{background-image: url("Images/MainLeft/dormitory.png");}
+.dormitory:hover{background-image: url("Images/MainLeft/dormitory2.png");}
+/*地标建筑*/
+.landmark{background-image: url("Images/MainLeft/landmark.png");}
+.landmark:hover{background-image: url("Images/MainLeft/landmark2.png");}

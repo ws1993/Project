@@ -1,0 +1,18 @@
+.iptxt {
+    margin-right: 5px;
+    border: 1px solid #d0d0ce;
+    float: left;
+    line-height: 29px;
+}
+
+input#formEmail, #formPhone {
+    height: 17px;
+    padding: 5px;
+    margin: 0;
+    border-width: 1px 0 0 1px;
+    border-color: #eaeceb;
+    border-style: solid;
+    font-size: 14px;
+    color: #999;
+    float: left;
+}
