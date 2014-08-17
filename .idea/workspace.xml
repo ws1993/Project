@@ -1,7 +1,91 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e580e56c-b2a9-4f5a-8b4f-749b57311a53" name="Default" comment="" />
+    <list default="true" id="e580e56c-b2a9-4f5a-8b4f-749b57311a53" name="Default" comment="">
+      <change type="DELETED" beforePath="F:\njutGISBlog\Project\Feedback.html.bak" afterPath="" />
+      <change type="DELETED" beforePath="F:\njutGISBlog\Project\Function.html" afterPath="" />
+      <change type="DELETED" beforePath="F:\njutGISBlog\Project\Styles\Images\MainLeft\decoration.png" afterPath="" />
+      <change type="DELETED" beforePath="F:\njutGISBlog\Project\Styles\Images\MainLeft\decoration2.png" afterPath="" />
+      <change type="DELETED" beforePath="F:\njutGISBlog\Project\Styles\Images\MainLeft\express3.png" afterPath="" />
+      <change type="DELETED" beforePath="F:\njutGISBlog\Project\koalaSass\css\tools.css" afterPath="" />
+      <change type="DELETED" beforePath="F:\njutGISBlog\Project\koalaSass\sass\tools.scss" afterPath="" />
+      <change type="DELETED" beforePath="F:\njutGISBlog\Project\素材\academic_area.png" afterPath="" />
+      <change type="DELETED" beforePath="F:\njutGISBlog\Project\素材\academic_area.psd" afterPath="" />
+      <change type="DELETED" beforePath="F:\njutGISBlog\Project\素材\academic_area2.png" afterPath="" />
+      <change type="DELETED" beforePath="F:\njutGISBlog\Project\素材\academic_area2.psd" afterPath="" />
+      <change type="DELETED" beforePath="F:\njutGISBlog\Project\素材\activity.png" afterPath="" />
+      <change type="DELETED" beforePath="F:\njutGISBlog\Project\素材\activity.psd" afterPath="" />
+      <change type="DELETED" beforePath="F:\njutGISBlog\Project\素材\activity2.png" afterPath="" />
+      <change type="DELETED" beforePath="F:\njutGISBlog\Project\素材\activity2.psd" afterPath="" />
+      <change type="DELETED" beforePath="F:\njutGISBlog\Project\素材\announcement.psd" afterPath="" />
+      <change type="DELETED" beforePath="F:\njutGISBlog\Project\素材\b_large_3lf5_511e0005bafe5c73.jpg" afterPath="" />
+      <change type="DELETED" beforePath="F:\njutGISBlog\Project\素材\baidu.PNG" afterPath="" />
+      <change type="DELETED" beforePath="F:\njutGISBlog\Project\素材\beauty_bg.png" afterPath="" />
+      <change type="DELETED" beforePath="F:\njutGISBlog\Project\素材\beauty_bg.psd" afterPath="" />
+      <change type="DELETED" beforePath="F:\njutGISBlog\Project\素材\beauty_bg2.psd" afterPath="" />
+      <change type="DELETED" beforePath="F:\njutGISBlog\Project\素材\beauty_bg3.psd" afterPath="" />
+      <change type="DELETED" beforePath="F:\njutGISBlog\Project\素材\beauty_bg4.psd" afterPath="" />
+      <change type="DELETED" beforePath="F:\njutGISBlog\Project\素材\bg_help.psd" afterPath="" />
+      <change type="DELETED" beforePath="F:\njutGISBlog\Project\素材\bookshop.png" afterPath="" />
+      <change type="DELETED" beforePath="F:\njutGISBlog\Project\素材\bookshop.psd" afterPath="" />
+      <change type="DELETED" beforePath="F:\njutGISBlog\Project\素材\bookshop2.png" afterPath="" />
+      <change type="DELETED" beforePath="F:\njutGISBlog\Project\素材\bookshop2.psd" afterPath="" />
+      <change type="DELETED" beforePath="F:\njutGISBlog\Project\素材\decoration.png" afterPath="" />
+      <change type="DELETED" beforePath="F:\njutGISBlog\Project\素材\decoration.psd" afterPath="" />
+      <change type="DELETED" beforePath="F:\njutGISBlog\Project\素材\decoration2.png" afterPath="" />
+      <change type="DELETED" beforePath="F:\njutGISBlog\Project\素材\decoration2.psd" afterPath="" />
+      <change type="DELETED" beforePath="F:\njutGISBlog\Project\素材\dormitory.png" afterPath="" />
+      <change type="DELETED" beforePath="F:\njutGISBlog\Project\素材\dormitory.psd" afterPath="" />
+      <change type="DELETED" beforePath="F:\njutGISBlog\Project\素材\dormitory2.png" afterPath="" />
+      <change type="DELETED" beforePath="F:\njutGISBlog\Project\素材\dormitory2.psd" afterPath="" />
+      <change type="DELETED" beforePath="F:\njutGISBlog\Project\素材\express.png" afterPath="" />
+      <change type="DELETED" beforePath="F:\njutGISBlog\Project\素材\express.psd" afterPath="" />
+      <change type="DELETED" beforePath="F:\njutGISBlog\Project\素材\express2.png" afterPath="" />
+      <change type="DELETED" beforePath="F:\njutGISBlog\Project\素材\express2.psd" afterPath="" />
+      <change type="DELETED" beforePath="F:\njutGISBlog\Project\素材\food.png" afterPath="" />
+      <change type="DELETED" beforePath="F:\njutGISBlog\Project\素材\food.psd" afterPath="" />
+      <change type="DELETED" beforePath="F:\njutGISBlog\Project\素材\food2.psd" afterPath="" />
+      <change type="DELETED" beforePath="F:\njutGISBlog\Project\素材\landmark.png" afterPath="" />
+      <change type="DELETED" beforePath="F:\njutGISBlog\Project\素材\landmark.psd" afterPath="" />
+      <change type="DELETED" beforePath="F:\njutGISBlog\Project\素材\landmark2.png" afterPath="" />
+      <change type="DELETED" beforePath="F:\njutGISBlog\Project\素材\landmark2.psd" afterPath="" />
+      <change type="DELETED" beforePath="F:\njutGISBlog\Project\素材\library.png" afterPath="" />
+      <change type="DELETED" beforePath="F:\njutGISBlog\Project\素材\library.psd" afterPath="" />
+      <change type="DELETED" beforePath="F:\njutGISBlog\Project\素材\library2.png" afterPath="" />
+      <change type="DELETED" beforePath="F:\njutGISBlog\Project\素材\library2.psd" afterPath="" />
+      <change type="DELETED" beforePath="F:\njutGISBlog\Project\素材\postgraduate.png" afterPath="" />
+      <change type="DELETED" beforePath="F:\njutGISBlog\Project\素材\postgraduate.psd" afterPath="" />
+      <change type="DELETED" beforePath="F:\njutGISBlog\Project\素材\postgraduate2.png" afterPath="" />
+      <change type="DELETED" beforePath="F:\njutGISBlog\Project\素材\postgraduate2.psd" afterPath="" />
+      <change type="DELETED" beforePath="F:\njutGISBlog\Project\素材\proclamation.psd" afterPath="" />
+      <change type="DELETED" beforePath="F:\njutGISBlog\Project\素材\proclamation2.psd" afterPath="" />
+      <change type="DELETED" beforePath="F:\njutGISBlog\Project\素材\report.png" afterPath="" />
+      <change type="DELETED" beforePath="F:\njutGISBlog\Project\素材\report.psd" afterPath="" />
+      <change type="DELETED" beforePath="F:\njutGISBlog\Project\素材\report2.png" afterPath="" />
+      <change type="DELETED" beforePath="F:\njutGISBlog\Project\素材\report2.psd" afterPath="" />
+      <change type="DELETED" beforePath="F:\njutGISBlog\Project\素材\run.png" afterPath="" />
+      <change type="DELETED" beforePath="F:\njutGISBlog\Project\素材\run.psd" afterPath="" />
+      <change type="DELETED" beforePath="F:\njutGISBlog\Project\素材\run2.psd" afterPath="" />
+      <change type="DELETED" beforePath="F:\njutGISBlog\Project\素材\schoolbus.png" afterPath="" />
+      <change type="DELETED" beforePath="F:\njutGISBlog\Project\素材\schoolbus.psd" afterPath="" />
+      <change type="DELETED" beforePath="F:\njutGISBlog\Project\素材\schoolbus2.png" afterPath="" />
+      <change type="DELETED" beforePath="F:\njutGISBlog\Project\素材\schoolbus2.psd" afterPath="" />
+      <change type="DELETED" beforePath="F:\njutGISBlog\Project\素材\search.png" afterPath="" />
+      <change type="DELETED" beforePath="F:\njutGISBlog\Project\素材\search.psd" afterPath="" />
+      <change type="DELETED" beforePath="F:\njutGISBlog\Project\素材\search2.png" afterPath="" />
+      <change type="DELETED" beforePath="F:\njutGISBlog\Project\素材\search2.psd" afterPath="" />
+      <change type="DELETED" beforePath="F:\njutGISBlog\Project\素材\self-service.png" afterPath="" />
+      <change type="DELETED" beforePath="F:\njutGISBlog\Project\素材\self-service.psd" afterPath="" />
+      <change type="DELETED" beforePath="F:\njutGISBlog\Project\素材\self-service2.png" afterPath="" />
+      <change type="DELETED" beforePath="F:\njutGISBlog\Project\素材\self-service2.psd" afterPath="" />
+      <change type="DELETED" beforePath="F:\njutGISBlog\Project\素材\工大景色.psd" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Scripts/BMapOpreation.js" afterPath="$PROJECT_DIR$/Scripts/BMapOpreation.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Main.html" afterPath="$PROJECT_DIR$/Main.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Styles/Site.css" afterPath="$PROJECT_DIR$/Styles/Site.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Styles/functions.css" afterPath="$PROJECT_DIR$/Styles/functions.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dictionaries/ws.xml" afterPath="$PROJECT_DIR$/.idea/dictionaries/ws.xml" />
+    </list>
     <ignored path="Project.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -26,34 +110,42 @@
       <file leaf-file-name="Main.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Main.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="81" column="35" selection-start="4421" selection-end="4430" vertical-scroll-proportion="0.0" vertical-offset="1289" max-vertical-offset="3060">
-              <folding />
+            <state line="132" column="39" selection-start="7327" selection-end="7327" vertical-scroll-proportion="-9.923077" vertical-offset="2382" max-vertical-offset="3460">
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#3;n#div#2;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#4;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#4;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#5;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#select#0;n#form#0;n#div#0;n#div#5;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#5;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BMapOpreation.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Scripts/BMapOpreation.js">
+      <file leaf-file-name="Site.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Styles/Site.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="23" selection-start="1012" selection-end="1012" vertical-scroll-proportion="0.0" vertical-offset="500" max-vertical-offset="4920">
+            <state line="26" column="10" selection-start="439" selection-end="439" vertical-scroll-proportion="0.0" vertical-offset="156" max-vertical-offset="740">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="functions.css" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="functions.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Styles/functions.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="69" selection-start="270" selection-end="270" vertical-scroll-proportion="0.0" vertical-offset="100" max-vertical-offset="1000">
+            <state line="25" column="66" selection-start="1198" selection-end="1198" vertical-scroll-proportion="0.0" vertical-offset="436" max-vertical-offset="1000">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="fBackstyle.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Styles/fBackstyle.css">
+      <file leaf-file-name="BMapOpreation.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Scripts/BMapOpreation.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="22" selection-start="102" selection-end="102" vertical-scroll-proportion="0.0" vertical-offset="80" max-vertical-offset="480">
+            <state line="317" column="44" selection-start="10598" selection-end="10598" vertical-scroll-proportion="0.71985155" vertical-offset="5952" max-vertical-offset="7900">
               <folding />
             </state>
           </provider>
@@ -66,7 +158,16 @@
       <setting name="OPEN_NEW_TAB" value="false" />
     </FindUsagesManager>
   </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="ws" />
+      </list>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="GitLogSettings">
+    <option name="myStructureFilterPaths" />
     <option name="myDateState">
       <MyDateState />
     </option>
@@ -83,14 +184,16 @@
         <option value="$PROJECT_DIR$/Feedback.html" />
         <option value="$PROJECT_DIR$/style.scss" />
         <option value="$PROJECT_DIR$/Function.html" />
-        <option value="$PROJECT_DIR$/Scripts/BMapOpreation.js" />
-        <option value="$PROJECT_DIR$/Main.html" />
         <option value="$PROJECT_DIR$/Styles/functions.css" />
+        <option value="$PROJECT_DIR$/Styles/Site.css" />
+        <option value="$PROJECT_DIR$/Main.html" />
+        <option value="$PROJECT_DIR$/Scripts/BMapOpreation.js" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
+    <option name="y" value="-8" />
     <option name="width" value="1382" />
     <option name="height" value="744" />
   </component>
@@ -205,8 +308,8 @@
     <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="MemberChooser.sorted" value="false" />
-    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
-    <property name="last_opened_file_path" value="D:/Ruby/Ruby200-x64/bin/compass.bat" />
+    <property name="options.lastSelected" value="settings.github" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
@@ -298,17 +401,42 @@
       <created>1399821626826</created>
       <updated>1399821626826</updated>
     </task>
+    <task id="LOCAL-00001" summary="改变main.html的css，去除之前没用的css(flat-ui)。新增地标建筑的显示">
+      <created>1408122655655</created>
+      <updated>1408122655655</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
+  <component name="TodoView" selected-index="0">
+    <todo-panel id="selected-file">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+    <todo-panel id="default-changelist">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="0" width="1382" height="744" extended-state="0" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3282572" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3293718" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24944155" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16455697" sideWeight="0.5721562" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16455697" sideWeight="0.6717428" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.14296351" sideWeight="0.42639595" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -318,6 +446,7 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -349,103 +478,137 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
+    <MESSAGE value="改变main.html的css，去除之前没用的css(flat-ui)。新增地标建筑的显示" />
+    <option name="LAST_COMMIT_MESSAGE" value="改变main.html的css，去除之前没用的css(flat-ui)。新增地标建筑的显示" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Feedback.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="23" selection-start="1904" selection-end="1904" vertical-scroll-proportion="0.0" vertical-offset="620" max-vertical-offset="1780" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Styles/fBackstyle.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="22" selection-start="102" selection-end="102" vertical-scroll-proportion="0.0" vertical-offset="80" max-vertical-offset="480">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Main.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="63" selection-start="556" selection-end="556" vertical-scroll-proportion="0.0" vertical-offset="340" max-vertical-offset="1460">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Styles/flat-ui.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="375" column="17" selection-start="7167" selection-end="7167" vertical-scroll-proportion="0.0" vertical-offset="7369" max-vertical-offset="111240" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Main.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="51" selection-start="981" selection-end="981" vertical-scroll-proportion="0.0" vertical-offset="200" max-vertical-offset="1160">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Styles/flat-ui.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="315" column="17" selection-start="6810" selection-end="6810" vertical-scroll-proportion="0.0" vertical-offset="6300" max-vertical-offset="94320" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Main.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="42" selection-start="409" selection-end="409" vertical-scroll-proportion="0.0" vertical-offset="280" max-vertical-offset="460">
-          <folding />
+        <state line="74" column="60" selection-start="4152" selection-end="4152" vertical-scroll-proportion="0.0" vertical-offset="1102" max-vertical-offset="3180">
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#3;n#div#2;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#4;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#4;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#5;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#select#0;n#form#0;n#div#0;n#div#5;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#5;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Styles/Site.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5980" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Styles/flat-ui.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="290" column="0" selection-start="6418" selection-end="6418" vertical-scroll-proportion="0.0" vertical-offset="5400" max-vertical-offset="111300" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Styles/radius.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="31" selection-start="74" selection-end="74" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="300" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Styles/fBackstyle.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="22" selection-start="102" selection-end="102" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="480">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Feedback.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="23" selection-start="1904" selection-end="1904" vertical-scroll-proportion="0.0" vertical-offset="620" max-vertical-offset="1780" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Function.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="12" selection-start="12" selection-end="12" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="1520" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Main.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="81" column="35" selection-start="4421" selection-end="4430" vertical-scroll-proportion="0.0" vertical-offset="1289" max-vertical-offset="3060">
+        <state line="23" column="50" selection-start="390" selection-end="390" vertical-scroll-proportion="0.0" vertical-offset="460" max-vertical-offset="720">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Scripts/BMapOpreation.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="23" selection-start="1012" selection-end="1012" vertical-scroll-proportion="0.0" vertical-offset="500" max-vertical-offset="4920">
+        <state line="184" column="0" selection-start="6074" selection-end="6074" vertical-scroll-proportion="0.0" vertical-offset="3276" max-vertical-offset="6780">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Main.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="137" column="84" selection-start="7436" selection-end="7436" vertical-scroll-proportion="0.0" vertical-offset="2242" max-vertical-offset="3120">
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#3;n#div#2;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#4;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#4;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#5;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#select#0;n#form#0;n#div#0;n#div#5;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#5;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Styles/Site.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="50" selection-start="390" selection-end="390" vertical-scroll-proportion="0.0" vertical-offset="460" max-vertical-offset="720">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Scripts/BMapOpreation.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="218" column="31" selection-start="7150" selection-end="7150" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="6780">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Main.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="126" column="48" selection-start="6898" selection-end="6898" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3120">
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#3;n#div#2;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#4;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#4;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#5;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#select#0;n#form#0;n#div#0;n#div#5;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#5;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Styles/Site.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="49" selection-start="440" selection-end="440" vertical-scroll-proportion="0.0" vertical-offset="480" max-vertical-offset="640">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Scripts/BMapOpreation.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="271" column="51" selection-start="8530" selection-end="8530" vertical-scroll-proportion="0.0" vertical-offset="4923" max-vertical-offset="5540">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Styles/flat-ui.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="240" column="0" selection-start="5576" selection-end="5737" vertical-scroll-proportion="-2.4" vertical-offset="4740" max-vertical-offset="111300" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Styles/Site.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="10" selection-start="439" selection-end="439" vertical-scroll-proportion="0.0" vertical-offset="156" max-vertical-offset="740">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Styles/functions.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="69" selection-start="270" selection-end="270" vertical-scroll-proportion="0.0" vertical-offset="100" max-vertical-offset="1000">
+        <state line="25" column="66" selection-start="1198" selection-end="1198" vertical-scroll-proportion="0.0" vertical-offset="436" max-vertical-offset="1000">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Main.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="132" column="39" selection-start="7327" selection-end="7327" vertical-scroll-proportion="-9.923077" vertical-offset="2382" max-vertical-offset="3460">
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#3;n#div#2;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#4;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#4;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#5;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#select#0;n#form#0;n#div#0;n#div#5;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#5;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Scripts/BMapOpreation.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="317" column="44" selection-start="10598" selection-end="10598" vertical-scroll-proportion="0.71985155" vertical-offset="5952" max-vertical-offset="7900">
           <folding />
         </state>
       </provider>

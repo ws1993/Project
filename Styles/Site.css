@@ -22,6 +22,11 @@ a:focus {
 a:focus {
     outline: none;
 }
-#showfood,#showexpress,#showrunning,#showlandmark{
+#showfood,#showexpress,
+#showrunning,
+#showshop,
+#showacademic_area,
+#showdormitory,
+#showlandmark{
     width: 260px; height: 490px; background-color: #FBFCFB; display:none;
 }

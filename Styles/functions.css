@@ -20,8 +20,8 @@
 .self-service{background-image: url("Images/MainLeft/self-service3.png");}
 .self-service:hover{background-image: url("Images/MainLeft/self-service4.png");}
 /*装饰*/
-.decoration{background-image: url("Images/MainLeft/decoration.png");}
-.decoration:hover{background-image: url("Images/MainLeft/decoration2.png");}
+.shop{background-image: url("Images/MainLeft/shop.png");}
+.shop:hover{background-image: url("Images/MainLeft/shop2.png");}
 /*研究生*/
 .postgraduate{background-image: url("Images/MainLeft/postgraduate.png");}
 .postgraduate:hover{background-image: url("Images/MainLeft/postgraduate2.png");}

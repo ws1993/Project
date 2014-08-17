@@ -37,7 +37,7 @@ function addFoodLayer() {
             autoViewport: true,  //根据结果点位置自动调整地图视野
             selectFirstResult: false //不显示第一条结果的信息窗口
         },
-        pageCapacity: 8//每页显示八条数据
+        pageCapacity: 8//每页显示八条数据  最多填10，超过10麻点的样式就会改变
     });
     foodLocal.search(' ', {forceLocal: true, customData: {geotableId: 66863}});//搜索美食表中所有的数据
 }
@@ -104,7 +104,7 @@ function addRunningLayer() {
         RSPoi3 = runningResults.getPoi(3);
         RSPoi4 = runningResults.getPoi(4);
         RSPoi5 = runningResults.getPoi(5);
-        RSPoia = RSPoi0.title;
+        RSPoia = RSPoi0.title;  //获取对应点的名称，然后利用dom动态赋值到select中，以对应数据
         RSPoib = RSPoi1.title;
         RSPoic = RSPoi2.title;
         RSPoid = RSPoi3.title;
@@ -182,6 +182,86 @@ function routeChange(index) {
             break;
     }
 }
+//本地商店的显示
+var shopLocal;
+function addShopLayer() {
+    if (shopLocal) {
+        shopLocal.clearResults();
+    }
+    //8月17日新建本地搜索
+    shopLocal = new BMap.LocalSearch(map, {
+        renderOptions: {
+            map: map,
+            panel: "ss2",//将列表结果显示到id为“showshop”的层中
+            autoViewport: true,  //根据结果点位置自动调整地图视野
+            selectFirstResult: false //不显示第一条结果的信息窗口
+        },
+        pageCapacity: 10//每页显示十条数据
+    });
+    shopLocal.search('超市 ', {forceLocal: true, customData: {geotableId: 75428}});//搜索商店表中特定类别的数据
+}
+function shopclassChange(index){
+    switch (index)
+    {
+        case "1" :
+            shopLocal.search('超市 ', {forceLocal: true, customData: {geotableId: 75428}});//搜索商店表中特定类别的数据
+            break;
+        case "2":
+            shopLocal.search('水果店 ', {forceLocal: true, customData: {geotableId: 75428}});//搜索商店表中特定类别的数据
+            break;
+        case "3":
+            shopLocal.search('小卖部 ', {forceLocal: true, customData: {geotableId: 75428}});//搜索商店表中特定类别的数据
+            break;
+        case "4":
+            shopLocal.search('打印店 ', {forceLocal: true, customData: {geotableId: 75428}});//搜索商店表中特定类别的数据
+            break;
+        case "5":
+            shopLocal.search('理发店 ', {forceLocal: true, customData: {geotableId: 75428}});//搜索商店表中特定类别的数据
+            break;
+        default:
+            break;
+    }
+
+
+}
+
+//本地教学楼显示
+var academic_areaLocal;
+function addAcademic_areaLayer() {
+    if (academic_areaLocal) {
+        academic_areaLocal.clearResults();
+    }
+    //8月17日新建本地搜索
+    academic_areaLocal = new BMap.LocalSearch(map, {
+        renderOptions: {
+            map: map,
+            panel: "showacademic_area",//将列表结果显示到id为“showacademic_area”的层中
+            autoViewport: true,  //根据结果点位置自动调整地图视野
+            selectFirstResult: false //不显示第一条结果的信息窗口
+        },
+        pageCapacity: 10//每页显示十条数据，超过10样式会出问题
+    });
+    academic_areaLocal.search(' ', {forceLocal: true, customData: {geotableId: 75357}});//搜索教学楼表中所有的数据
+}
+
+//本地宿舍区显示
+var dormitoryLocal;
+function addDormitoryLayer() {
+    if (dormitoryLocal) {
+        dormitoryLocal.clearResults();
+    }
+    //8月17日新建本地搜索
+    dormitoryLocal = new BMap.LocalSearch(map, {
+        renderOptions: {
+            map: map,
+            panel: "showdormitory",//将列表结果显示到id为“showdormitory”的层中
+            autoViewport: true,  //根据结果点位置自动调整地图视野
+            selectFirstResult: false //不显示第一条结果的信息窗口
+        },
+        pageCapacity: 10//每页显示十条数据
+    });
+    dormitoryLocal.search(' ', {forceLocal: true, customData: {geotableId: 75359}});//搜索宿舍区表中所有的数据
+}
 
 //本地地标建筑显示
 var landmarkLocal;
@@ -197,9 +277,9 @@ function addLandmarkLayer() {
             autoViewport: true,  //根据结果点位置自动调整地图视野
             selectFirstResult: false //不显示第一条结果的信息窗口
         },
-        pageCapacity: 5//每页显示七条数据
+        pageCapacity: 5//每页显示五条数据
     });
-    landmarkLocal.search(' ', {forceLocal: true, customData: {geotableId: 75341}});//搜索快递表中所有的数据
+    landmarkLocal.search(' ', {forceLocal: true, customData: {geotableId: 75341}});//搜索地标表中所有的数据
 }
 
 //切换左侧导航功能区
@@ -208,6 +288,9 @@ function showinfo(type) {
     var Showfood = document.getElementById("showfood");
     var Showexpress = document.getElementById("showexpress");
     var Showrunning = document.getElementById("showrunning");
+    var Showshop=document.getElementById("showshop");
+    var Showacademic_area=document.getElementById("showacademic_area");
+    var Showdormitory=document.getElementById("showdormitory");
     var Showlandmark=document.getElementById("showlandmark");
     //切回初始界面
     if ('0') {
@@ -226,6 +309,23 @@ function showinfo(type) {
             walking.clearResults();// 清除长跑路线
             All.style.display = "block";
             Showrunning.style.display = "none";
+            document.getElementById("frmroutes").reset();//退回到首页后，将select的选择重置，否则select的选项会停留在之前的选择上
+        }
+        if(shopLocal){
+            shopLocal.clearResults();
+            All.style.display="block";
+            Showshop.style.display="none";
+            document.getElementById("frmshops").reset();//退回到首页后，将select的选择重置，否则select的选项会停留在之前的选择上
+        }
+        if(academic_areaLocal){
+           academic_areaLocal.clearResults();
+            All.style.display="block";
+            Showacademic_area.style.display="none";
+        }
+        if(dormitoryLocal){
+            dormitoryLocal.clearResults();
+            All.style.display="block";
+            Showdormitory.style.display="none";
         }
         if(landmarkLocal){
             landmarkLocal.clearResults();
@@ -248,7 +348,7 @@ function showinfo(type) {
         Showexpress.style.display = "block";
     }
     //切至长跑点列表窗口
-    if (type == "3") {
+    if (type == '3') {
         addRunningLayer();
         All.style.display = "none";
         Showrunning.style.display = "block";
@@ -261,6 +361,24 @@ function showinfo(type) {
     //交流会
     if (type == "6") {
         alert("本功能正在开发中，敬请期待");
+    }
+    //商店
+    if(type=="8") {
+         addShopLayer();
+        All.style.display="none";
+        Showshop.style.display="block";
+    }
+    //教学楼
+    if(type=="13"){
+        addAcademic_areaLayer();
+        All.style.display="none";
+        Showacademic_area.style.display="block";
+    }
+    //宿舍区
+    if(type=="14"){
+        addDormitoryLayer();
+        All.style.display="none";
+        Showdormitory.style.display="block";
     }
     //地标
     if(type=="15"){

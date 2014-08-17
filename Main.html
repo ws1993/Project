@@ -10,7 +10,7 @@
     <link type="text/css" rel="stylesheet" href="Styles/functions.css"/>
     <link type="text/css" rel="stylesheet" href="Styles/radius.css"/>
     <script type="text/javascript" src="Scripts/jquery-1.4.1.js"></script>
-    <script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=vKB0P8g3TleqEc7e0sgrWNCw"></script>
+    <script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=BaHlvXA5KWBIzuSwwi5FIPfN"></script>
     <!-- 加载百度地图样式信息窗口 -->
     <script type="text/javascript" src="http://api.map.baidu.com/library/SearchInfoWindow/1.5/src/SearchInfoWindow_min.js"></script>
     <link rel="stylesheet" href="http://api.map.baidu.com/library/SearchInfoWindow/1.5/src/SearchInfoWindow_min.css" />
@@ -54,8 +54,8 @@
                 <!--自助服务-->
                 <a class="self-service" href="#" style="float: left; margin-left: 16px; width: 40px; height: 55px">
                 </a>
-                <!--装饰-->
-                <a class="decoration" href="#" style="float: left; margin-left: 16px;  width: 40px; height: 55px">
+                <!--商店-->
+                <a class="shop" href="javascript:void(0)" style="float: left; margin-left: 16px;  width: 40px; height: 55px" onclick="showinfo('8')">
                 </a>
             </div>
             <!--学习类功能区-->
@@ -70,16 +70,18 @@
                 <a class="bookshop" href="#" style="float: left; margin-left: 16px; width: 40px; height: 55px">
                 </a>
                 <!--图书馆-->
-                <a class="library" href="#" style="float: left; margin-left: 16px; width: 40px; height: 55px">
+                <a class="library" href="http://lib.njtech.edu.cn/"  target="_blank"
+                   onclick="return confirm('即将跳转进入南京工业大学图书馆')"
+                   style="float: left; margin-left: 16px; width: 40px; height: 55px;" >
                 </a>
             </div>
             <!--校园建筑展示区-->
             <div class="building" style="margin-left: 21px; margin-top: 20px; height: 55px">
                 <!--教学区-->
-                <a class="academic_area" href="#" style="float: left; width: 40px; height: 55px">
+                <a class="academic_area" href="javascript:void(0)" style="float: left; width: 40px; height: 55px" onclick="showinfo('13')">
                 </a>
                 <!--宿舍区-->
-                <a class="dormitory" href="#" style="float: left; margin-left: 16px; width: 40px; height: 55px">
+                <a class="dormitory" href="javascript:void(0)" style="float: left; margin-left: 16px; width: 40px; height: 55px;" onclick="showinfo('14')">
                 </a>
                 <!--地标建筑-->
                 <a class="landmark" href="javascript:void(0)" style="float: left; margin-left: 16px; width: 40px; height: 55px;" onclick="showinfo('15')">
@@ -101,7 +103,7 @@
         <div class="fun" id="showrunning">
             <div id="sr1" style="width: 260px; height: 250px;"></div>
             <div id="sr2" style="width: 260px; height: 30px;">
-                <form>
+                <form id="frmroutes">
                     <!--使用微软雅黑字体-->
                     <select name="routes" style="width: 260px; font-family:Microsoft YaHei; font-size: 15px" onchange="routeChange(this.value)">
                         <option value="01" id="ab"></option>
@@ -123,6 +125,21 @@
                 </form>
             </div>
             <div id="src3" style="width: 260px; height: 204px;"><img src="Styles/Images/MainLeft/announcement.png" /></div>
+        </div>
+        <div class="fun" id="showshop">
+            <div id="ss1" style="width: 260px; height: 30px;">
+                  <form id="frmshops">
+                    <!--使用微软雅黑字体-->
+                    <select name="shops" style="width: 260px; font-family:Microsoft YaHei; font-size: 15px" onchange="shopclassChange(this.value)">
+                        <option value="1" >超市</option>
+                        <option value="2" >水果店</option>
+                        <option value="3" >小卖部</option>
+                        <option value="4" >打印店</option>
+                        <option value="5" >理发店</option>
+                    </select>
+                </form>
+            </div>
+            <div id="ss2" style="width: 260px; height: 250px;"></div>
         </div>
         <div class="fun" id="showacademic_area"></div>
         <div class="fun" id="showdormitory"></div>
