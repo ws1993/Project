@@ -13,7 +13,7 @@ function checkSend() {
         alert("内容不能为空！");
         return false;
     }
-    if (email == ""||phone=="") {
+    if (email == "" || phone == "") {
         alert("为了更好地落实您的建议，请留下您的联系方式，我们对此表示衷心的谢谢");
         return false;
     }
@@ -23,7 +23,7 @@ function checkSend() {
         data: "Fcontent=" + fcnt + "&email=" + email + "&phone=" + phone,
         success: function (data) {
             alert("提交成功");
-            document.getElementById('formContent').value= "";
+            document.getElementById('formContent').value = "";
             document.getElementById('formEmail').value = "";
             document.getElementById('formPhone').value = "";
         }

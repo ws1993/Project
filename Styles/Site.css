@@ -5,6 +5,7 @@
     color: #34495e;
     background-color: #ffffff;
 }
+
 a {
     color: #333333;
     text-decoration: none;
@@ -22,11 +23,16 @@ a:focus {
 a:focus {
     outline: none;
 }
-#showfood,#showexpress,
+
+#showfood, #showexpress,
 #showrunning,
 #showshop,
+#showbookshop,
 #showacademic_area,
 #showdormitory,
-#showlandmark{
-    width: 260px; height: 490px; background-color: #FBFCFB; display:none;
+#showlandmark {
+    width: 260px;
+    height: 490px;
+    background-color: #FBFCFB;
+    display: none;
 }

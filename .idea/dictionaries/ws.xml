@@ -2,8 +2,11 @@
   <dictionary name="ws">
     <words>
       <w>daohang</w>
+      <w>houxue</w>
       <w>mapdiv</w>
+      <w>renzhi</w>
       <w>showacademic</w>
+      <w>showbookshop</w>
       <w>showdetail</w>
       <w>showdormitory</w>
       <w>showexpress</w>
@@ -14,6 +17,7 @@
       <w>showrunning</w>
       <w>showshop</w>
       <w>simg</w>
+      <w>tonghe</w>
     </words>
   </dictionary>
 </component>

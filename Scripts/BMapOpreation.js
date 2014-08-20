@@ -110,21 +110,21 @@ function addRunningLayer() {
         RSPoid = RSPoi3.title;
         RSPoie = RSPoi4.title;
         RSPoif = RSPoi5.title;
-        document.getElementById("ab").innerHTML=RSPoia +"——"+ RSPoib;
-        document.getElementById("ac").innerHTML=RSPoia +"——"+ RSPoic;
-        document.getElementById("ad").innerHTML=RSPoia +"——"+ RSPoid;
-        document.getElementById("ae").innerHTML=RSPoia +"——"+ RSPoie;
-        document.getElementById("af").innerHTML=RSPoia +"——"+ RSPoif;
-        document.getElementById("bc").innerHTML=RSPoib +"——"+ RSPoic;
-        document.getElementById("bd").innerHTML=RSPoib +"——"+ RSPoid;
-        document.getElementById("be").innerHTML=RSPoib +"——"+ RSPoie;
-        document.getElementById("bf").innerHTML=RSPoib +"——"+ RSPoif;
-        document.getElementById("cd").innerHTML=RSPoic +"——"+ RSPoid;
-        document.getElementById("ce").innerHTML=RSPoic +"——"+ RSPoie;
-        document.getElementById("cf").innerHTML=RSPoic +"——"+ RSPoif;
-        document.getElementById("de").innerHTML=RSPoid +"——"+ RSPoie;
-        document.getElementById("df").innerHTML=RSPoid +"——"+ RSPoif;
-        document.getElementById("ef").innerHTML=RSPoie +"——"+ RSPoif;
+        document.getElementById("ab").innerHTML = RSPoia + "——" + RSPoib;
+        document.getElementById("ac").innerHTML = RSPoia + "——" + RSPoic;
+        document.getElementById("ad").innerHTML = RSPoia + "——" + RSPoid;
+        document.getElementById("ae").innerHTML = RSPoia + "——" + RSPoie;
+        document.getElementById("af").innerHTML = RSPoia + "——" + RSPoif;
+        document.getElementById("bc").innerHTML = RSPoib + "——" + RSPoic;
+        document.getElementById("bd").innerHTML = RSPoib + "——" + RSPoid;
+        document.getElementById("be").innerHTML = RSPoib + "——" + RSPoie;
+        document.getElementById("bf").innerHTML = RSPoib + "——" + RSPoif;
+        document.getElementById("cd").innerHTML = RSPoic + "——" + RSPoid;
+        document.getElementById("ce").innerHTML = RSPoic + "——" + RSPoie;
+        document.getElementById("cf").innerHTML = RSPoic + "——" + RSPoif;
+        document.getElementById("de").innerHTML = RSPoid + "——" + RSPoie;
+        document.getElementById("df").innerHTML = RSPoid + "——" + RSPoif;
+        document.getElementById("ef").innerHTML = RSPoie + "——" + RSPoif;
         walking = new BMap.WalkingRoute(map, {renderOptions: {map: map, autoViewport: true}});
         walking.search(RSPoi0, RSPoi1);
     }
@@ -182,6 +182,7 @@ function routeChange(index) {
             break;
     }
 }
+
 //本地商店的显示
 var shopLocal;
 function addShopLayer() {
@@ -192,7 +193,7 @@ function addShopLayer() {
     shopLocal = new BMap.LocalSearch(map, {
         renderOptions: {
             map: map,
-            panel: "ss2",//将列表结果显示到id为“showshop”的层中
+            panel: "ss2",//将列表结果显示到id为“showshop2”的层中
             autoViewport: true,  //根据结果点位置自动调整地图视野
             selectFirstResult: false //不显示第一条结果的信息窗口
         },
@@ -200,9 +201,8 @@ function addShopLayer() {
     });
     shopLocal.search('超市 ', {forceLocal: true, customData: {geotableId: 75428}});//搜索商店表中特定类别的数据
 }
-function shopclassChange(index){
-    switch (index)
-    {
+function shopclassChange(index) {
+    switch (index) {
         case "1" :
             shopLocal.search('超市 ', {forceLocal: true, customData: {geotableId: 75428}});//搜索商店表中特定类别的数据
             break;
@@ -221,8 +221,24 @@ function shopclassChange(index){
         default:
             break;
     }
-
-
+}
+//本地书摊的显示
+var bookshopLocal;
+function addBookshopLayer() {
+    if (bookshopLocal) {
+        bookshopLocal.clearResults();
+    }
+    //8月18日新建本地搜索
+    bookshopLocal = new BMap.LocalSearch(map, {
+        renderOptions: {
+            map: map,
+            panel: "sbs1",//将列表结果显示到id为“showbookshop1”的层中
+            autoViewport: true,  //根据结果点位置自动调整地图视野
+            selectFirstResult: false //不显示第一条结果的信息窗口
+        },
+        pageCapacity: 10//每页显示十条数据
+    });
+    bookshopLocal.search(' ', {forceLocal: true, customData: {geotableId: 75389}});//搜索书摊表中所有的数据
 }
 
 //本地教学楼显示
@@ -288,10 +304,11 @@ function showinfo(type) {
     var Showfood = document.getElementById("showfood");
     var Showexpress = document.getElementById("showexpress");
     var Showrunning = document.getElementById("showrunning");
-    var Showshop=document.getElementById("showshop");
-    var Showacademic_area=document.getElementById("showacademic_area");
-    var Showdormitory=document.getElementById("showdormitory");
-    var Showlandmark=document.getElementById("showlandmark");
+    var Showshop = document.getElementById("showshop");
+    var Showbookshop = document.getElementById("showbookshop");
+    var Showacademic_area = document.getElementById("showacademic_area");
+    var Showdormitory = document.getElementById("showdormitory");
+    var Showlandmark = document.getElementById("showlandmark");
     //切回初始界面
     if ('0') {
         if (foodLocal) {
@@ -311,26 +328,31 @@ function showinfo(type) {
             Showrunning.style.display = "none";
             document.getElementById("frmroutes").reset();//退回到首页后，将select的选择重置，否则select的选项会停留在之前的选择上
         }
-        if(shopLocal){
+        if (shopLocal) {
             shopLocal.clearResults();
-            All.style.display="block";
-            Showshop.style.display="none";
+            All.style.display = "block";
+            Showshop.style.display = "none";
             document.getElementById("frmshops").reset();//退回到首页后，将select的选择重置，否则select的选项会停留在之前的选择上
         }
-        if(academic_areaLocal){
-           academic_areaLocal.clearResults();
-            All.style.display="block";
-            Showacademic_area.style.display="none";
+        if (bookshopLocal) {
+            bookshopLocal.clearResults();
+            All.style.display = "block";
+            showbookshop.style.display = "none";
         }
-        if(dormitoryLocal){
+        if (academic_areaLocal) {
+            academic_areaLocal.clearResults();
+            All.style.display = "block";
+            Showacademic_area.style.display = "none";
+        }
+        if (dormitoryLocal) {
             dormitoryLocal.clearResults();
-            All.style.display="block";
-            Showdormitory.style.display="none";
+            All.style.display = "block";
+            Showdormitory.style.display = "none";
         }
-        if(landmarkLocal){
+        if (landmarkLocal) {
             landmarkLocal.clearResults();
-            All.style.display="block";
-            Showlandmark.style.display="none";
+            All.style.display = "block";
+            Showlandmark.style.display = "none";
         }
         //恢复到初始地图的状态
         map.centerAndZoom(point, 16);
@@ -363,27 +385,33 @@ function showinfo(type) {
         alert("本功能正在开发中，敬请期待");
     }
     //商店
-    if(type=="8") {
-         addShopLayer();
-        All.style.display="none";
-        Showshop.style.display="block";
+    if (type == "8") {
+        addShopLayer();
+        All.style.display = "none";
+        Showshop.style.display = "block";
+    }
+    //书摊
+    if (type == "11") {
+        addBookshopLayer();
+        All.style.display = "none";
+        Showbookshop.style.display = "block";
     }
     //教学楼
-    if(type=="13"){
+    if (type == "13") {
         addAcademic_areaLayer();
-        All.style.display="none";
-        Showacademic_area.style.display="block";
+        All.style.display = "none";
+        Showacademic_area.style.display = "block";
     }
     //宿舍区
-    if(type=="14"){
+    if (type == "14") {
         addDormitoryLayer();
-        All.style.display="none";
-        Showdormitory.style.display="block";
+        All.style.display = "none";
+        Showdormitory.style.display = "block";
     }
     //地标
-    if(type=="15"){
+    if (type == "15") {
         addLandmarkLayer();
-        All.style.display="none";
-        Showlandmark.style.display="block";
+        All.style.display = "none";
+        Showlandmark.style.display = "block";
     }
 }

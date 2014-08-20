@@ -1,9 +1,15 @@
 /* line 2, ../sass/radius.scss */
-#index {
-  -moz-border-radius-topleft: 7px;
-  -webkit-border-top-left-radius: 7px;
-  border-top-left-radius: 7px;
-  -moz-border-radius-topright: 7px;
-  -webkit-border-top-right-radius: 7px;
-  border-top-right-radius: 7px;
+#index, /*for Main.html*/
+#renzhi,
+#tonghe,
+#houxue/*for  Classroom.html*/
+ {
+    -moz-border-radius-topleft: 7px;
+    -webkit-border-top-left-radius: 7px;
+    border-top-left-radius: 7px;
+    -moz-border-radius-topright: 7px;
+    -webkit-border-top-right-radius: 7px;
+    border-top-right-radius: 7px;
 }
+
+/*for  Classroom.html*/
