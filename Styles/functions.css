@@ -54,14 +54,14 @@
 
 /*自助服务*/
 .self-service {
-    background-image: url("Images/MainLeft/self-service3.png");
+    background-image: url("Images/MainLeft/self-service.png");
 }
 
 .self-service:hover {
-    background-image: url("Images/MainLeft/self-service4.png");
+    background-image: url("Images/MainLeft/self-service2.png");
 }
 
-/*装饰*/
+/*商店*/
 .shop {
     background-image: url("Images/MainLeft/shop.png");
 }
