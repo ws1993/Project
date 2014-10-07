@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>空教室查询</title>
+    <meta charset="utf-8">
+    <meta name="description" content="南工大地理信息集成平台">
+    <meta name="author" content="南京工业大学测绘学院3S学社">
+    <link type="text/css" rel="stylesheet" href="Styles/radius.css"/>
+    <link type="text/css" rel="stylesheet" href="Styles/classroom.css"/>
+    <link type="text/css" rel="stylesheet" href="jquery-easyui-1.4/themes/bootstrap/easyui.css"/>
+    <link type="text/css" rel="stylesheet" href="jquery-easyui-1.4/themes/icon.css"/>
+    <!--<link type="text/css" rel="stylesheet" href="Jeasyui/demo/demo.css" />-->
+    <script type="text/javascript" src="jquery-easyui-1.4/jquery.min.js"></script>
+    <script type="text/javascript" src="jquery-easyui-1.4/jquery.easyui.min.js"></script>
+    <script type="text/javascript" src="Scripts/ClassroomJS.js"></script>
+    <!--由于ClassroomJS.js中用到上面的jquery文件，所以要在他们后面导入，否则会报$ is not defined的错误-->
+</head>
+<body onload="showinfo()">
+<!--头部-->
+<div id="header" style="width: 100%; background-color: #f7f7f7;">
+    <img src="Styles/Images/Header/browser.png"/>
+    <img src="Styles/Images/Header/头small.png"/>
+</div>
+<!--主体-->
+<div id="main" style="width: 100%; height: 580px; margin-top: 10px;">
+    <!--仁智楼-->
+    <div id="renzhi" style="width: 31%; height: 550px; margin-left: 1%; float: left;
+            background-color: #f3f3f3;">
+        <div class="upper">
+            <p>
+                仁智楼</p>
+        </div>
+        <div class="below">
+            <table id="tbd"  class="easyui-datagrid"
+                   toolbar="#toolbar"
+                   data-options="
+				   fitColumns: true,
+				   singleSelect: true,
+				   rownumbers: true">
+                <thead>
+                <tr>
+                    <th data-options="field:'Date'">
+                        日期
+                    </th>
+                    <th data-options="field:'First_floor'">
+                        一楼
+                    </th>
+                    <th data-options="field:'Second_floor'">
+                        二楼
+                    </th>
+                    <th data-options="field:'Third_floor'">
+                        三楼
+                    </th>
+                    <th data-options="field:'Forth_floor'">
+                        四楼
+                    </th>
+                    <th data-options="field:'Fifth_floor'">
+                        五楼
+                    </th>
+                </tr>
+                </thead>
+                
+            </table>
+        </div>
+        <div id="toolbar">
+            <a href="javascript:void(0)" class="easyui-linkbutton" iconcls="icon-add" plain="true"
+               onclick="newUser()">增加新纪录</a>
+            <a href="javascript:void(0)" class="easyui-linkbutton"
+               iconcls="icon-edit" plain="true" onclick="editUser()">编辑记录</a>
+            <a href="javascript:void(0)"
+               class="easyui-linkbutton" iconcls="icon-remove" plain="true" onclick="destroyUser()">
+                移除记录</a>
+        </div>
+        <div id="dlg" class="easyui-dialog" style="width:400px;height:320px;padding:10px 20px"
+             closed="true" buttons="#dlg-buttons">
+            <div class="ftitle">空教室信息</div>
+            <form id="fm" method="post" novalidate>
+                <div class="fitem">
+                    <label>日期:</label>
+                    <input name="Date" class="easyui-textbox" required="true" missingMessage="日期必须填写"><!--需要引用最新的easyui，required才有用-->
+                </div>
+                <div class="fitem">
+                    <label>一楼:</label>
+                    <input name="First_floor" class="easyui-textbox">
+                </div>
+                <div class="fitem">
+                    <label>二楼:</label>
+                    <input name="Second_floor" class="easyui-textbox">
+                </div>
+                <div class="fitem">
+                    <label>三楼:</label>
+                    <input name="Third_floor" class="easyui-textbox">
+                </div>
+                <div class="fitem">
+                    <label>四楼:</label>
+                    <input name="Forth_floor" class="easyui-textbox">
+                </div>
+                <div class="fitem">
+                    <label>五楼:</label>
+                    <input name="Fifth_floor" class="easyui-textbox">
+                </div>
+            </form>
+        </div>
+        <div id="dlg-buttons">
+            <a href="javascript:void(0)" class="easyui-linkbutton c6" iconCls="icon-ok" onclick="saveRecord()"
+               style="width:62px">确定</a>
+            <a href="javascript:void(0)" class="easyui-linkbutton" iconCls="icon-cancel"
+               onclick="javascript:$('#dlg').dialog('close')" style="width:62px">取消</a>
+        </div>
+        <script type="text/javascript">
+            var url;
+            function newUser() {
+                $('#dlg').dialog('open').dialog('setTitle', '增加新纪录');
+                $('#fm').form('clear');
+                url = 'save_user.php';
+            }
+            function editUser() {
+                var row = $('#dg').datagrid('getSelected');
+                if (row) {
+                    $('#dlg').dialog('open').dialog('setTitle', 'Edit User');
+                    $('#fm').form('load', row);
+                    url = 'update_user.php?id=' + row.id;
+                }
+            }
+            function saveRecord() {
+                $('#fm').form('submit', {
+                    url: url,
+                    onSubmit: function () {
+                        return $(this).form('validate');
+                    },
+                    success: function (result) {
+                        var result = eval('(' + result + ')');
+                        if (result.errorMsg) {
+                            $.messager.show({
+                                title: 'Error',
+                                msg: result.errorMsg
+                            });
+                        } else {
+                            $('#dlg').dialog('close');        // close the dialog
+                            $('#dg').datagrid('reload');    // reload the user data
+                        }
+                    }
+                });
+            }
+            function destroyUser() {
+                var row = $('#dg').datagrid('getSelected');
+                if (row) {
+                    $.messager.confirm('Confirm', 'Are you sure you want to destroy this user?', function (r) {
+                        if (r) {
+                            $.post('destroy_user.php', {id: row.id}, function (result) {
+                                if (result.success) {
+                                    $('#dg').datagrid('reload');    // reload the user data
+                                } else {
+                                    $.messager.show({    // show error message
+                                        title: 'Error',
+                                        msg: result.errorMsg
+                                    });
+                                }
+                            }, 'json');
+                        }
+                    });
+                }
+            }
+        </script>
+    </div>
+    <!--同和楼-->
+    <div id="tonghe" style="width: 31%; height: 550px; margin-left: 2.5%; float: left;
+            background-color: #f3f3f3;">
+        <div class="upper">
+            <p>
+                同和楼</p>
+        </div>
+        <div class="middle">
+        </div>
+        <div class="below">
+        </div>
+    </div>
+    <!--厚学楼-->
+    <div id="houxue" style="width: 31%; height: 550px; margin-left: 2.5%; float: left;
+            background-color: #f3f3f3;">
+        <div class="upper">
+            <p>
+                厚学楼</p>
+        </div>
+        <div class="middle">
+        </div>
+        <div class="below">
+        </div>
+    </div>
+</div>
+</body>
+</html>
