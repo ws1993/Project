@@ -6,6 +6,13 @@
     background-color: #ffffff;
 }
 
+#copyright{
+    color: #333333;
+    -webkit-transition: 0.25s;
+    transition: 0.25s;
+    font-size: 13px;
+    padding-left: 35%;
+}
 a {
     color: #333333;
     text-decoration: none;
@@ -26,6 +33,7 @@ a:focus {
 
 #showfood, #showexpress,
 #showrunning,
+#showschoolbus,
 #showshop,
 #showbookshop,
 #showacademic_area,

@@ -1,5 +1,4 @@
 //百度地图API功能
-
 //定义叠加图层
 var tileLayer = new BMap.TileLayer({ isTransparentPng: true });
 tileLayer.getTilesUrl = function (tileCoord, zoom) {
@@ -19,10 +18,10 @@ map.addControl(new BMap.ScaleControl());                    // 添加默认比�
 map.addControl(new BMap.NavigationControl());  //添加默认缩放平移控件
 
 //显示点击点的经纬度 确定LBS数据经纬度用
-function showll(e) {
+/*function showll(e) {
     alert(e.point.lng + ", " + e.point.lat);
 }
-map.addEventListener("click", showll);
+map.addEventListener("click", showll);  */
 
 //本地对LBS云美食数据进行检索
 var foodLocal;
@@ -183,6 +182,24 @@ function routeChange(index) {
     }
 }
 
+//本地对LBS云校车数据进行检索
+var schoolbusLocal;
+function addSchoolbusLayer() {
+    if (schoolbusLocal) {
+        schoolbusLocal.clearResults();
+    }
+    schoolbusLocal = new BMap.LocalSearch(map, {
+        renderOptions: {
+            map: map,
+            panel: "showschoolbus",//将列表结果显示到id为“showschoolbus”的层中
+            autoViewport: true,  //根据结果点位置自动调整地图视野
+            selectFirstResult: false //不显示第一条结果的信息窗口
+        },
+        pageCapacity: 10//每页显示十条数据
+    });
+    schoolbusLocal.search(' ', {forceLocal: true, customData: {geotableId: 81384}});//搜索校车表中所有的数据
+}
+
 //本地商店的显示
 var shopLocal;
 function addShopLayer() {
@@ -203,20 +220,20 @@ function addShopLayer() {
 }
 function shopclassChange(index) {
     switch (index) {
-        case "1" :
+        case "0" :
             shopLocal.search('超市 ', {forceLocal: true, customData: {geotableId: 75428}});//搜索商店表中特定类别的数据
             break;
-        case "2":
-            shopLocal.search('水果店 ', {forceLocal: true, customData: {geotableId: 75428}});//搜索商店表中特定类别的数据
+        case "1":
+            shopLocal.search('水果 ', {forceLocal: true, customData: {geotableId: 75428}});//搜索商店表中特定类别的数据
             break;
-        case "3":
+        case "2":
             shopLocal.search('小卖部 ', {forceLocal: true, customData: {geotableId: 75428}});//搜索商店表中特定类别的数据
             break;
-        case "4":
+        case "3":
             shopLocal.search('打印店 ', {forceLocal: true, customData: {geotableId: 75428}});//搜索商店表中特定类别的数据
             break;
-        case "5":
-            shopLocal.search('理发店 ', {forceLocal: true, customData: {geotableId: 75428}});//搜索商店表中特定类别的数据
+        case "4":
+            shopLocal.search('发廊 ', {forceLocal: true, customData: {geotableId: 75428}});//搜索商店表中特定类别的数据
             break;
         default:
             break;
@@ -304,6 +321,7 @@ function showinfo(type) {
     var Showfood = document.getElementById("showfood");
     var Showexpress = document.getElementById("showexpress");
     var Showrunning = document.getElementById("showrunning");
+    var Showschoolbus=document.getElementById("showschoolbus");
     var Showshop = document.getElementById("showshop");
     var Showbookshop = document.getElementById("showbookshop");
     var Showacademic_area = document.getElementById("showacademic_area");
@@ -333,6 +351,11 @@ function showinfo(type) {
             All.style.display = "block";
             Showshop.style.display = "none";
             document.getElementById("frmshops").reset();//退回到首页后，将select的选择重置，否则select的选项会停留在之前的选择上
+        }
+        if(schoolbusLocal){
+            schoolbusLocal.clearResults();
+            All.style.display="block";
+            Showbookshop.style.display="none";
         }
         if (bookshopLocal) {
             bookshopLocal.clearResults();
@@ -375,6 +398,12 @@ function showinfo(type) {
         All.style.display = "none";
         Showrunning.style.display = "block";
         //map.removeTileLayer(tileLayer);
+    }
+    //切至校车点列表窗口
+    if (type == '4') {
+        addSchoolbusLayer();
+        All.style.display = "none";
+        Showschoolbus.style.display = "block";
     }
     //活动
     if (type == "5") {
