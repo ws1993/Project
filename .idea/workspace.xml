@@ -2,20 +2,41 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e580e56c-b2a9-4f5a-8b4f-749b57311a53" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Styles/Images/404/404-old.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Styles/Images/404/404.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Styles/Images/tab_logo.ico" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Styles/Images/404/说明.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/404.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Styles/Images/MainLeft/beauty_bg4.png" afterPath="$PROJECT_DIR$/Styles/Images/MainLeft/beauty_bg4.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Styles/Images/Header/browser.png" afterPath="$PROJECT_DIR$/Styles/Images/Header/browser.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Styles/Images/Header/头small.png" afterPath="$PROJECT_DIR$/Styles/Images/Header/头small.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Scripts/BMapOpreation.js" afterPath="$PROJECT_DIR$/Scripts/BMapOpreation.js" />
+      <change type="DELETED" beforePath="F:\njutGISBlog\Project\Styles\Images\MainLeft\academic_area.png" afterPath="" />
+      <change type="DELETED" beforePath="F:\njutGISBlog\Project\Styles\Images\MainLeft\academic_area2.png" afterPath="" />
+      <change type="DELETED" beforePath="F:\njutGISBlog\Project\Styles\Images\MainLeft\activity.png" afterPath="" />
+      <change type="DELETED" beforePath="F:\njutGISBlog\Project\Styles\Images\MainLeft\activity2.png" afterPath="" />
+      <change type="DELETED" beforePath="F:\njutGISBlog\Project\Styles\Images\MainLeft\beauty1.gif" afterPath="" />
+      <change type="DELETED" beforePath="F:\njutGISBlog\Project\Styles\Images\MainLeft\bookshop.png" afterPath="" />
+      <change type="DELETED" beforePath="F:\njutGISBlog\Project\Styles\Images\MainLeft\bookshop2.png" afterPath="" />
+      <change type="DELETED" beforePath="F:\njutGISBlog\Project\Styles\Images\MainLeft\dormitory.png" afterPath="" />
+      <change type="DELETED" beforePath="F:\njutGISBlog\Project\Styles\Images\MainLeft\dormitory2.png" afterPath="" />
+      <change type="DELETED" beforePath="F:\njutGISBlog\Project\Styles\Images\MainLeft\express.png" afterPath="" />
+      <change type="DELETED" beforePath="F:\njutGISBlog\Project\Styles\Images\MainLeft\express2.png" afterPath="" />
+      <change type="DELETED" beforePath="F:\njutGISBlog\Project\Styles\Images\MainLeft\food.png" afterPath="" />
+      <change type="DELETED" beforePath="F:\njutGISBlog\Project\Styles\Images\MainLeft\food2.png" afterPath="" />
+      <change type="DELETED" beforePath="F:\njutGISBlog\Project\Styles\Images\MainLeft\landmark.png" afterPath="" />
+      <change type="DELETED" beforePath="F:\njutGISBlog\Project\Styles\Images\MainLeft\landmark2.png" afterPath="" />
+      <change type="DELETED" beforePath="F:\njutGISBlog\Project\Styles\Images\MainLeft\library.png" afterPath="" />
+      <change type="DELETED" beforePath="F:\njutGISBlog\Project\Styles\Images\MainLeft\library2.png" afterPath="" />
+      <change type="DELETED" beforePath="F:\njutGISBlog\Project\Styles\Images\MainLeft\postgraduate.png" afterPath="" />
+      <change type="DELETED" beforePath="F:\njutGISBlog\Project\Styles\Images\MainLeft\postgraduate2.png" afterPath="" />
+      <change type="DELETED" beforePath="F:\njutGISBlog\Project\Styles\Images\MainLeft\report.png" afterPath="" />
+      <change type="DELETED" beforePath="F:\njutGISBlog\Project\Styles\Images\MainLeft\report2.png" afterPath="" />
+      <change type="DELETED" beforePath="F:\njutGISBlog\Project\Styles\Images\MainLeft\run.png" afterPath="" />
+      <change type="DELETED" beforePath="F:\njutGISBlog\Project\Styles\Images\MainLeft\run2.png" afterPath="" />
+      <change type="DELETED" beforePath="F:\njutGISBlog\Project\Styles\Images\MainLeft\schoolbus.png" afterPath="" />
+      <change type="DELETED" beforePath="F:\njutGISBlog\Project\Styles\Images\MainLeft\schoolbus2.png" afterPath="" />
+      <change type="DELETED" beforePath="F:\njutGISBlog\Project\Styles\Images\MainLeft\search.png" afterPath="" />
+      <change type="DELETED" beforePath="F:\njutGISBlog\Project\Styles\Images\MainLeft\search2.png" afterPath="" />
+      <change type="DELETED" beforePath="F:\njutGISBlog\Project\Styles\Images\MainLeft\self-service.png" afterPath="" />
+      <change type="DELETED" beforePath="F:\njutGISBlog\Project\Styles\Images\MainLeft\self-service2.png" afterPath="" />
+      <change type="DELETED" beforePath="F:\njutGISBlog\Project\Styles\Images\MainLeft\shop.png" afterPath="" />
+      <change type="DELETED" beforePath="F:\njutGISBlog\Project\Styles\Images\MainLeft\shop2.png" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/404.html" afterPath="$PROJECT_DIR$/404.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Main.html" afterPath="$PROJECT_DIR$/Main.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Styles/Site.css" afterPath="$PROJECT_DIR$/Styles/Site.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Web.config" afterPath="$PROJECT_DIR$/Web.config" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Styles/functions.css" afterPath="$PROJECT_DIR$/Styles/functions.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dictionaries/ws.xml" afterPath="$PROJECT_DIR$/.idea/dictionaries/ws.xml" />
     </list>
     <ignored path="Project.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -38,20 +59,16 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Classroom.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Classroom.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="116" selection-start="1228" selection-end="1228" vertical-scroll-proportion="0.0" vertical-offset="500" max-vertical-offset="3960">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Main.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Main.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Main.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="127" column="21" selection-start="6554" selection-end="6554" vertical-scroll-proportion="1.6785047" vertical-offset="1642" max-vertical-offset="4260">
+            <state line="7" column="24" selection-start="186" selection-end="202" vertical-scroll-proportion="-5.3846154" vertical-offset="0" max-vertical-offset="4460">
               <folding>
+                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#2;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#a#1;n#div#2;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#5;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -66,11 +83,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="404.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="404.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/404.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="36" selection-start="353" selection-end="353" vertical-scroll-proportion="0.0" vertical-offset="240" max-vertical-offset="420">
-              <folding />
+            <state line="5" column="20" selection-start="100" selection-end="100" vertical-scroll-proportion="0.12091898" vertical-offset="0" max-vertical-offset="827">
+              <folding>
+                <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -78,25 +97,16 @@
       <file leaf-file-name="Site.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Styles/Site.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="4" selection-start="199" selection-end="199" vertical-scroll-proportion="0.0" vertical-offset="13" max-vertical-offset="1020">
+            <state line="10" column="4" selection-start="199" selection-end="199" vertical-scroll-proportion="0.0" vertical-offset="200" max-vertical-offset="1020">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Feedback.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Feedback.html">
+      <file leaf-file-name="BMapOpreation.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Scripts/BMapOpreation.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1800">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="classroom.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Styles/classroom.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="54" column="13" selection-start="821" selection-end="821" vertical-scroll-proportion="0.0" vertical-offset="1080" max-vertical-offset="1880">
+            <state line="23" column="81" selection-start="996" selection-end="996" vertical-scroll-proportion="0.0" vertical-offset="7740" max-vertical-offset="9040">
               <folding />
             </state>
           </provider>
@@ -105,23 +115,7 @@
       <file leaf-file-name="functions.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Styles/functions.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="56" column="49" selection-start="999" selection-end="999" vertical-scroll-proportion="0.0" vertical-offset="1927" max-vertical-offset="2780">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="self-service.png" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Styles/Images/MainLeft/self-service.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BMapOpreation.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Scripts/BMapOpreation.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="81" selection-start="996" selection-end="996" vertical-scroll-proportion="0.0" vertical-offset="7740" max-vertical-offset="9040">
+            <state line="11" column="156" selection-start="340" selection-end="340" vertical-scroll-proportion="0.0" vertical-offset="220" max-vertical-offset="3160">
               <folding />
             </state>
           </provider>
@@ -164,11 +158,11 @@
         <option value="$PROJECT_DIR$/Styles/classroom.css" />
         <option value="$PROJECT_DIR$/Scripts/ClassroomJS.js" />
         <option value="$PROJECT_DIR$/Classroom.html" />
-        <option value="$PROJECT_DIR$/Styles/functions.css" />
         <option value="$PROJECT_DIR$/Scripts/BMapOpreation.js" />
-        <option value="$PROJECT_DIR$/404.html" />
         <option value="$PROJECT_DIR$/Styles/Site.css" />
+        <option value="$PROJECT_DIR$/Styles/functions.css" />
         <option value="$PROJECT_DIR$/Main.html" />
+        <option value="$PROJECT_DIR$/404.html" />
       </list>
     </option>
   </component>
@@ -262,6 +256,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -330,13 +325,12 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="404" />
+              <option name="myItemId" value="Header" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -352,8 +346,8 @@
     <property name="FullScreen" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -365,6 +359,14 @@
     </key>
   </component>
   <component name="RunManager">
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <option name="VMOptions" />
+      <option name="arguments" />
+      <option name="filePath" />
+      <option name="scope" value="ALL" />
+      <option name="testName" />
+      <method />
+    </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
       <option name="VMOptions" />
       <option name="arguments" />
@@ -373,14 +375,6 @@
       <option name="saveOutputToFile" value="false" />
       <option name="showConsoleOnStdErr" value="false" />
       <option name="showConsoleOnStdOut" value="false" />
-      <method />
-    </configuration>
-    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
-      <option name="VMOptions" />
-      <option name="arguments" />
-      <option name="filePath" />
-      <option name="scope" value="ALL" />
-      <option name="testName" />
       <method />
     </configuration>
     <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" singleton="true" config-file="">
@@ -475,7 +469,11 @@
       <created>1413188793119</created>
       <updated>1413188793119</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="优化前的程序备份">
+      <created>1419495842601</created>
+      <updated>1419495842601</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -502,12 +500,11 @@
     <frame x="-9" y="-9" width="1932" height="1050" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33069083" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32767403" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3293718" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24944155" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14663844" sideWeight="0.6693092" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14663844" sideWeight="0.8686297" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.14296351" sideWeight="0.42639595" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3293718" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
@@ -516,7 +513,8 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.13137034" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.10645527" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -537,9 +535,9 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24944155" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14670184" sideWeight="0.6706282" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3293718" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3293718" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -560,6 +558,13 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Styles/functions.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="156" selection-start="340" selection-end="340" vertical-scroll-proportion="0.0" vertical-offset="220" max-vertical-offset="3160">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Styles/Site.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="24" column="49" selection-start="440" selection-end="440" vertical-scroll-proportion="0.0" vertical-offset="480" max-vertical-offset="640" />
@@ -597,32 +602,6 @@
         <state line="80" column="2" selection-start="1264" selection-end="1264" vertical-scroll-proportion="0.33152175" vertical-offset="1478" max-vertical-offset="2140" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Classroom.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="116" selection-start="1228" selection-end="1228" vertical-scroll-proportion="0.0" vertical-offset="500" max-vertical-offset="3960">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Styles/classroom.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="54" column="13" selection-start="821" selection-end="821" vertical-scroll-proportion="0.0" vertical-offset="1020" max-vertical-offset="1880">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Feedback.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1600">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Styles/Images/MainLeft/self-service.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Scripts/BMapOpreation.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="23" column="81" selection-start="996" selection-end="996" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="9040">
@@ -630,31 +609,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Styles/functions.css">
+    <entry file="file://$PROJECT_DIR$/Styles/classroom.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="56" column="49" selection-start="999" selection-end="999" vertical-scroll-proportion="0.0" vertical-offset="960" max-vertical-offset="2780">
-          <folding />
-        </state>
+        <state line="54" column="13" selection-start="821" selection-end="821" vertical-scroll-proportion="0.0" vertical-offset="1020" max-vertical-offset="1880" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/404.html">
+    <entry file="file://$PROJECT_DIR$/Feedback.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="36" selection-start="353" selection-end="353" vertical-scroll-proportion="0.0" vertical-offset="240" max-vertical-offset="420">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1600" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Classroom.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="24" selection-start="986" selection-end="986" vertical-scroll-proportion="0.7089552" vertical-offset="0" max-vertical-offset="3900" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Styles/Site.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="4" selection-start="199" selection-end="199" vertical-scroll-proportion="0.0" vertical-offset="13" max-vertical-offset="1020">
+        <state line="10" column="4" selection-start="199" selection-end="199" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1020">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Styles/functions.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="156" selection-start="340" selection-end="340" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3160">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Main.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="127" column="21" selection-start="6554" selection-end="6554" vertical-scroll-proportion="1.6785047" vertical-offset="1642" max-vertical-offset="4260">
+        <state line="7" column="24" selection-start="186" selection-end="202" vertical-scroll-proportion="-5.3846154" vertical-offset="0" max-vertical-offset="4460">
           <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#2;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#a#1;n#div#2;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#5;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -664,6 +656,15 @@
             <element signature="n#style#0;n#span#1;n#div#11;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#span#2;n#div#11;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/404.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="20" selection-start="100" selection-end="100" vertical-scroll-proportion="0.12091898" vertical-offset="0" max-vertical-offset="827">
+          <folding>
+            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>

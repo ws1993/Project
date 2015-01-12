@@ -1,134 +1,152 @@
-﻿/*美食*/
-.food {
-    background-image: url("Images/MainLeft/food.png");
+﻿.academic_area, .activity,.bookshop, .classroom, .dormitory, .express, .food, .landmark, .library, .postgraduate, .report, .running, .schoolbus, .self-service, .shop {
+  background: url('Images/MainLeft/se944aba046.png') no-repeat;
 }
 
-.food:hover {
-    background-image: url("Images/MainLeft/food2.png");
-}
-
-/*快递*/
-.express {
-    background-image: url("Images/MainLeft/express.png");
-}
-
-.express:hover {
-    background-image: url("Images/MainLeft/express2.png");
-}
-
-/*长跑*/
-.running {
-    background-image: url("Images/MainLeft/run.png");
-}
-
-.running:hover {
-    background-image: url("Images/MainLeft/run2.png");
-}
-
-/*校车*/
-.bus {
-    background-image: url("Images/MainLeft/schoolbus.png");
-}
-
-.bus:hover {
-    background-image: url("Images/MainLeft/schoolbus2.png");
-}
-
-/*活动*/
-.activity {
-    background-image: url("Images/MainLeft/activity.png");
-}
-
-.activity:hover {
-    background-image: url("Images/MainLeft/activity2.png");
-}
-
-/*报告会*/
-.report {
-    background-image: url("Images/MainLeft/report.png");
-}
-
-.report:hover {
-    background-image: url("Images/MainLeft/report2.png");
-}
-
-/*自助服务*/
-.self-service {
-    background-image: url("Images/MainLeft/self-service.png");
-}
-
-.self-service:hover {
-    background-image: url("Images/MainLeft/self-service2.png");
-}
-
-/*商店*/
-.shop {
-    background-image: url("Images/MainLeft/shop.png");
-}
-
-.shop:hover {
-    background-image: url("Images/MainLeft/shop2.png");
-}
-
-/*研究生*/
-.postgraduate {
-    background-image: url("Images/MainLeft/postgraduate.png");
-}
-
-.postgraduate:hover {
-    background-image: url("Images/MainLeft/postgraduate2.png");
-}
-
-/*空教室*/
-.classroom {
-    background-image: url("Images/MainLeft/search.png");
-}
-
-.classroom:hover {
-    background-image: url("Images/MainLeft/search2.png");
-}
-
-/*书摊*/
-.bookshop {
-    background-image: url("Images/MainLeft/bookshop.png");
-}
-
-.bookshop:hover {
-    background-image: url("Images/MainLeft/bookshop2.png");
-}
-
-/*图书馆*/
-.library {
-    background-image: url("Images/MainLeft/library.png");
-}
-
-.library:hover {
-    background-image: url("Images/MainLeft/library2.png");
-}
-
-/*教学区*/
 .academic_area {
-    background-image: url("Images/MainLeft/academic_area.png");
+  background-position: 0 0;
 }
+
 
 .academic_area:hover {
-    background-image: url("Images/MainLeft/academic_area2.png");
+  background-position: 0 -55px;
 }
 
-/*宿舍区*/
-.dormitory {
-    background-image: url("Images/MainLeft/dormitory.png");
+
+.activity {
+  background-position: 0 -110px;
 }
+
+
+.activity:hover {
+  background-position: 0 -165px;
+}
+
+
+.bookshop {
+  background-position: 0 -220px;
+}
+
+
+.bookshop:hover {
+  background-position: 0 -275px;
+}
+
+
+.classroom {
+  background-position: 0 -330px;
+}
+
+
+.classroom:hover {
+  background-position: 0 -385px;
+}
+
+
+.dormitory {
+  background-position: 0 -440px;
+}
+
 
 .dormitory:hover {
-    background-image: url("Images/MainLeft/dormitory2.png");
+  background-position: 0 -495px;
 }
 
-/*地标建筑*/
-.landmark {
-    background-image: url("Images/MainLeft/landmark.png");
+
+.express {
+  background-position: 0 -550px;
 }
+
+
+.express:hover {
+  background-position: 0 -605px;
+}
+
+
+.food {
+  background-position: 0 -660px;
+}
+
+
+.food:hover {
+  background-position: 0 -715px;
+}
+
+
+.landmark {
+  background-position: 0 -770px;
+}
+
 
 .landmark:hover {
-    background-image: url("Images/MainLeft/landmark2.png");
+  background-position: 0 -825px;
+}
+
+
+.library {
+  background-position: 0 -880px;
+}
+
+
+.library:hover {
+  background-position: 0 -935px;
+}
+
+
+.postgraduate {
+  background-position: 0 -990px;
+}
+
+
+.postgraduate:hover {
+  background-position: 0 -1045px;
+}
+
+
+.report {
+  background-position: 0 -1100px;
+}
+
+
+.report:hover {
+  background-position: 0 -1155px;
+}
+
+
+.running {
+  background-position: 0 -1210px;
+}
+
+
+.running:hover {
+  background-position: 0 -1265px;
+}
+
+
+.schoolbus {
+  background-position: 0 -1320px;
+}
+
+
+.schoolbus:hover {
+  background-position: 0 -1375px;
+}
+
+
+.self-service {
+  background-position: 0 -1430px;
+}
+
+
+.self-service:hover {
+  background-position: 0 -1485px;
+}
+
+
+.shop {
+  background-position: 0 -1540px;
+}
+
+
+.shop:hover {
+  background-position: 0 -1595px;
 }
